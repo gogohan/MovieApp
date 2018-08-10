@@ -16,9 +16,9 @@ import com.example.demo.controller.MovieController;
 @CrossOrigin(origins = "https://apitester.com/")
 public class service {
 	MovieController control= new MovieController();
-	@RequestMapping("/check")
+	@RequestMapping("/")
 	String home() {
-		return "Hello !";
+		return "Movie Ticket Application !";
 	}
 	@RequestMapping("/Movies")
 	ArrayList<String> Listall(){
